@@ -17,3 +17,8 @@ kubectl scale replicaset myapp-replicaset --replicas=2
 
 # Delete the ReplicaSet
 kubectl delete rs myapp-replicaset
+
+# get the replicaset live yaml config
+kubectl  get rs myapp-replicaset -o yaml
+
+
